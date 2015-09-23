@@ -11,3 +11,5 @@ Example demonstrating Google's OAuth with Cordova and inapp browser
  - Add a platform, for example android,  `cordova platform add android`
  - Build the platform's project `cordova build android`
  - Launch the platform's simulator `cordova emulate android`
+
+Due Credits: https://github.com/mdellanoce/google-api-oauth-phonegap
