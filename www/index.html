@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <title>Google OAuth with PhoneGap</title>
+    </head>
+    <body>
+        <div class="app">
+            <div id="login">
+                <a>Sign In With Google!</a>
+            </div>
+            <div id="greet">
+                <h1></h1>
+                <button class="logout">Logout from app</button>
+                <p>(The function evoked during click of the above logout button needs to be invoked when user logs out from App so that the current google session is also removed.)</p>
+            </div>
+        </div>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/jquery-1.10.1.min.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+    </body>
+</html>
