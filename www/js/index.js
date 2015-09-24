@@ -114,7 +114,8 @@ var app = {
 
 	        $(".logout").on("click", function(){
 	        	$.post('https://accounts.google.com/Logout?continue=http://google.com', {}).done(function(data) {
-	        		alert("Logged out from google");
+                    alert("Logged out from google and exiting app");
+                    navigator.app.exitApp();
 	        	}).fail(function(response) {
            
         		});
